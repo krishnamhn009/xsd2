@@ -14,15 +14,15 @@ namespace Xsd2.Tests
         static void Main(string[] args)
         {
 
-            ReturnType returnType = new ReturnType()
-            {
-                T619 =new TransmitterType(),
-                Return=new List<PartXIXReturnChoiceType>()
+            //ReturnType returnType = new ReturnType()
+            //{
+            //    T619 =new TransmitterType(),
+            //    Return=new List<PartXIXReturnChoiceType>()
             
-            };
-            string basePath = @"C:\Users\Lenovo\Downloads\xsd2\Xsd2.Tests\Schemas\";
-            // Serialize to XML and save to file
-            SerializeToXml(returnType, basePath+@"\crs.xml");
+            //};
+            //string basePath = @"C:\Users\Lenovo\Downloads\xsd2\Xsd2.Tests\Schemas\";
+            //// Serialize to XML and save to file
+            //SerializeToXml(returnType, basePath+@"\crs.xml");
 
             PetaTest.Runner.RunMain(args);
         }
