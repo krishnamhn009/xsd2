@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Xsd2.Tests</RootNamespace>
     <AssemblyName>Xsd2.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -51,6 +51,7 @@
     <Compile Include="PetaTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schemas\Crs.cs" />
     <Compile Include="Schemas\form.cs">
       <DependentUpon>Form.xsd</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -62,6 +63,333 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Schemas\filling\agr-1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\complex.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\cracommonstructures.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\isodpitypes_v1.0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\lemmcommontypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\nr4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\oecddpitypes_v1.0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\partxix.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\partxviii.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\PartXX_v1.0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\prpp.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\rrsp-rrif-nqi.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\rrsp.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\safer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\simple.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\specifictypes_v2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\standarddatatypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\stfdirect-2.1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\stfdirect-2.2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\stftypes-2.1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\stftypes-2.2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t1204.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t215.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t2202.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t244.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4a-nr.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4a-oas.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4a-p.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4a.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4e.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4fhsa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4rif.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t4rsp.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5007.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5008.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013fin.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013main.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch01.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch02.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch05.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch06.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch08-1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch08.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch09.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch100.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch125.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch130.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch140.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch141.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch50.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch52.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch58.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch63.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch65.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch75.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5013sch78.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t5018.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\t550.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_AGR-1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_NR4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_Part20_v1.0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_PartXIX.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_PartXVIII.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_PartXX_v1.0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_PRPP.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_RRSP.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_RRSPOrRRIFNonQualifiedInvestment.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_SAFER.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T1204.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T215.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T2202.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T244.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4A.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4A_NR.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4A_OAS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4A_P.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4E.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4FHSA.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4RIF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T4RSP.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T5007.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T5008.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T5013.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T5013main.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T5018.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T550.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_T661.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T619_TFSA.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\T661prt9.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\tfsa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Schemas\filling\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Schemas\Issue12.xsd">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

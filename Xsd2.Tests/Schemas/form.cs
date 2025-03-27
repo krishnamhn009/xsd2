@@ -5,7 +5,7 @@ namespace Xsd2
     
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0+845c4615e45a5e28527933d7c8447f96b7e8645a")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://example.org/Form.xsd")]
@@ -189,7 +189,7 @@ namespace Xsd2
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0+845c4615e45a5e28527933d7c8447f96b7e8645a")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://example.org/Form.xsd")]
     [System.Xml.Serialization.XmlRootAttribute(Namespace="http://example.org/Form.xsd", IsNullable=false)]
@@ -213,7 +213,7 @@ namespace Xsd2
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MixedContainer))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Container))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Field))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0+845c4615e45a5e28527933d7c8447f96b7e8645a")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://example.org/Form.xsd")]
@@ -222,7 +222,7 @@ namespace Xsd2
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0+845c4615e45a5e28527933d7c8447f96b7e8645a")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://example.org/Form.xsd")]
@@ -280,7 +280,7 @@ namespace Xsd2
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0+845c4615e45a5e28527933d7c8447f96b7e8645a")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://example.org/Form.xsd")]
@@ -305,7 +305,7 @@ namespace Xsd2
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Xsd2", "1.0.0.0+845c4615e45a5e28527933d7c8447f96b7e8645a")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://example.org/Form.xsd")]
